@@ -1,0 +1,222 @@
+footer{
+    width: 100%;
+    height: 10em; 
+    display: flex;
+    justify-content: center;
+    background: linear-gradient( 90deg, #114161,rgb(66, 124, 163));
+}
+
+footer a{
+    color: #fff;
+    text-decoration: none;
+    padding: 0 2em;
+}
+
+footer a:hover{  
+    color: #F4D03F;
+}
+
+#icf{
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#cf{
+    background-color: #fff;
+    padding: 0;
+}
+
+.pad-top-5{
+    margin-top: 5em;
+}
+
+.pad-top-4{
+    margin-top: 4.3em;
+}
+
+.container-fluid{   
+    background-color: #444;
+}
+
+.img-section-div{   
+    padding-top: 24.5em;
+    margin-right: 8em; 
+    color: #ffffff;
+    float: right;
+    margin-top: -58vw;
+    position: relative;
+    z-index: 1000;
+    font-size: 1em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: right;
+}
+
+.img-section{  
+    width: 100%;
+    height: 50rem;
+    background-image: url(../img/hawaii.jpg);
+    filter: brightness(50%);
+    background-size: cover;
+    
+}
+
+.titulo-oradores{
+    padding: 1em 0;
+    text-align: center;
+}
+
+.cards{
+    justify-content: space-around;
+    margin: 1em 9em;   
+    display: flex;   
+}
+
+.titulo-resaltado{
+    display: flex;
+}
+
+.titulo-resaltado b{
+    border-radius: 5px;
+    margin: 0 .4em 0 0;
+    padding: 0 .4em;
+    font-size: .8em;
+}
+
+.js{   
+   background-color: #F4D03F;
+}
+
+.r{
+    color: #fff; 
+    background-color: #5DADE2 ;
+}
+
+.neg{
+    background-color: #777;
+    color: #fff;
+}
+
+.star{
+    background-color: #FF3838;
+    color: #fff;  
+}
+
+.div-image-section{  
+    width: 50%;
+    height: 30em;
+    background-image: url(../img/honolulu.jpg);
+    background-size: cover;
+}
+
+
+.div-text-section{
+
+    color: #fff;
+    width: 50%;
+    background-color: #424949  ;
+}
+
+.div-text-section p{
+  font-size: .8em;
+}
+
+.div-text-section div{
+    margin: 1em 0 0 1em;
+}
+
+.div-text-section div input{
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    background-color: rgba(0, 0, 0, 0)
+}
+
+.section-img-text{
+    display: flex;
+}
+
+.conviertete-en-orador{
+        
+    width: 60%;
+    margin: 0 auto 2em;
+    }
+
+.titulo-conviertete{
+    width: fit-content;
+    margin: 0 auto .5em;
+    }
+
+.titulo-conviertete p{
+    margin: 1em 0 0 .5em;
+}
+
+#exampleInputText{
+    margin: 0 auto;
+    width: 48%;
+}
+
+.mb-3{
+    display: flex;
+    }
+
+.conviertete-en-orador form p{
+    width: fit-content;        
+    margin: 1em auto;
+}
+
+#nav-link{
+    color: #090;
+}
+
+#nav-link:hover{
+    color: #fff;
+}
+
+
+#span{
+    border-bottom: 1px dotted #000;
+}
+
+#boton-enviar{
+    width: 98%;
+    margin-left: 1%;
+    border: 0;
+    background-color: #7FC733;
+}
+
+#exampleFormControlTextarea1{
+    width: 98%;
+    margin-left: 1%;
+}
+
+#nav-bar{
+    font-weight: 5px;
+    width: 100%;
+    padding: 0;   
+}
+    
+#white{
+    color: #fff;
+}
+
+#white:hover{
+   color: #F4D03F;
+}
+        
+ #gris{
+    color: #ABB2B9;
+}
+
+#conoce-mas:hover{
+    background-color: #fff;
+    color: #444;
+}
+
+        
+#boton1{
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+#parrafo{
+    margin-top: 1em;
+}
