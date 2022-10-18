@@ -136,12 +136,12 @@ footer a:hover{
     margin: 0 auto 2em;
     }
 
-.titulo-conviertete{
+.titulos-1{
     width: fit-content;
     margin: 0 auto .5em;
     }
 
-.titulo-conviertete p{
+.titulos-1 p{
     margin: 1em 0 0 .5em;
 }
 
@@ -219,13 +219,52 @@ footer a:hover{
 
 #nueva_seccion{
     background-color: #fff;
-    padding: 3em 8em;
+    padding: 0 8em;
     height: auto;
     display: flex;
-   
     justify-content: center;
 }
 
 .card{
-    margin: 1em 4px;
+    margin: 0 4px;
+    padding: 1em 0 ;
+    text-align: center;
+}
+
+.titulos-2{
+    width: fit-content;
+    margin: 0 auto .5em;
+    }
+
+.titulos-2 p{
+    width: fit-content;
+    margin: 0 auto .5em;
+}
+
+.tickets{
+    width: 50%;
+    margin: 0 auto;
+}
+.mb3-1{
+    
+    width: 49.5%;
+    margin-right: 1%;
+   
+}
+.mb3-2{
+    
+    width: 49.5%;
+    margin: 0;
+   
+}
+
+#boton-tickets{
+   
+    background-color: #7FC733;
+    border: 0;
+}
+
+
+#botones-ticket{
+    margin-top: 2em;
 }

@@ -8,8 +8,6 @@
     <link rel="stylesheet" href="css/styles.css">
     <!-- CSS only -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-<!-- JavaScript Bundle with Popper -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 </head>
 <body>
    <div class="container-fluid" id="cf">
@@ -131,7 +129,7 @@
       </div>
     </section>
 
-    <div class="titulo-conviertete">
+    <div class="titulos-1">
       <p>CONVIERTETE EN UN</p>
       <h1>ORADOR</h1>
     </div>
@@ -170,13 +168,14 @@
 
       <div class="card border-info mb-3 rounded-0" style="max-width: 18rem;">
         <div class="card-body">
-          <h5 class="card-title">Traine</h5>
+          <h5 class="card-title">Trainee</h5>
           <p class="card-text">Tienen un descuento</p>
           <h6 class="card-title">50%</h6>
           <p class="card-text">*presentar documentacion</p>
         </div>
       </div>
 
+      
       <div class="card border-warning mb-3 rounded-0" style="max-width: 18rem;">
         <div class="card-body">
           <h5 class="card-title">Junior</h5>
@@ -185,9 +184,54 @@
           <p class="card-text">*presentar documentacion</p>
         </div>
       </div>  
-      
     </div>
-  </div>
+
+    <div class="titulos-2">
+    <p>VENTA</p>
+     <h2 class="card-title"> VALOR DE TICKET $200</h2>
+    </div>
+
+    <section  class="tickets">
+      <form>
+        <div class="mb-3">
+          
+          <label for="exampleInputText" class="form-label" ></label>
+          <input type="text" class="form-control mb3-1" aria-describedby="textHelp" placeholder="Nombre">
+          <label for="exampleInputText" class="form-label"></label>
+          <input type="text" class="form-control mb3-2" aria-describedby="textHelp" placeholder="Apellido" >
+          
+        </div>
+        <div class="mb-1" id="correo">
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="correo">
+        </div>
+    
+        <fieldset disabled class="mb-3">
+          
+          <div class="mb-1 mb3-1">    
+            <label for="disabledTextInput" class="form-label ">Cantidad</label>    
+            <input type="text" id="disabledTextInput" class="form-control" placeholder="cantidad">
+          </div>
+          <div class="mb-1 mb3-2">
+            <label for="disabledSelect" class="form-label">Categoria</label>
+            <select class="form-select">
+              <option>Estudiante</option>
+            </select>
+          </div>
+          
+          
+         
+        </fieldset>
+
+        <div class="alert alert-primary" role="alert">Total a Pagar: $ </div>
+
+        <div class="mb-3" id="botones-ticket">
+        <button type="submit" class="btn btn-success mb3-1"   id="boton-tickets">Borrar</button>
+        <button type="submit" class="btn btn-success mb3-2"   id="boton-tickets">Resumen</button>
+      </div>
+      </form>
+    </div>
+
+  </section>
 
     <footer>
       
