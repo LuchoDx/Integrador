@@ -16,11 +16,6 @@ footer a:hover{
     color: #F4D03F;
 }
 
-#icf{
-    background-color: rgba(0, 0, 0, 0);
-}
-
-
 #cf{
     background-color: #fff;
     padding: 0;
@@ -220,4 +215,17 @@ footer a:hover{
 
 #parrafo{
     margin-top: 1em;
+}
+
+#nueva_seccion{
+    background-color: #fff;
+    padding: 3em 8em;
+    height: auto;
+    display: flex;
+   
+    justify-content: center;
+}
+
+.card{
+    margin: 1em 4px;
 }
