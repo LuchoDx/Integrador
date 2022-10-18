@@ -6,8 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Integrador</title>
     <link rel="stylesheet" href="css/styles.css">
-    <!-- CSS only -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
 </head>
 <body>
    <div class="container-fluid" id="cf">
@@ -212,11 +215,12 @@
             <input type="text" id="disabledTextInput" class="form-control" placeholder="cantidad">
           </div>
           <div class="mb-1 mb3-2">
-            <label for="disabledSelect" class="form-label">Categoria</label>
+            <label class="form-label">Categoria</label>
             <select class="form-select">
-              <option id="option1">Estudiante</option>
-              <option id="option2">Trainee</option>
-              <option id="option2">Junior</option>
+              <option selected value="nada">Elegir Opción</option>
+              <option value="estudiante">Estudiante</option>
+              <option value="trainee">Trainee</option>
+              <option value="junior">Junior</option>
             </select>
           </div>
           
