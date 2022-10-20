@@ -1,3 +1,5 @@
+const formulario = document.getElementById("formulario");
+
 function hacerCalculos(){
     const valorTicket = 200;
     let selectCan = document.getElementById("cantidad").value;   
@@ -18,7 +20,7 @@ function hacerCalculos(){
 } 
 
 function borrar(){
-
+    formulario.reset();
     document.getElementById("total-a-pagar").innerHTML = "Total a Pagar: $";
 
 }
