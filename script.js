@@ -1,6 +1,5 @@
 const formulario = document.getElementById("formulario");
 
-
 /*se hacen los calculos correspondientes para que cada quien tenga su descuento correspondiente*/
 function hacerCalculos(){
     const valorTicket = 200;
@@ -17,14 +16,12 @@ function hacerCalculos(){
     } else if(selectedOption == "junior"){
             let resultado = valorTicket * selectCan - ((valorTicket * selectCan) * 15 / 100);
             document.getElementById("total-a-pagar").innerHTML = "Total a Pagar: $" + resultado;
-        }
-    
+        }   
 } 
 
 function borrar(){
     formulario.reset();
     document.getElementById("total-a-pagar").innerHTML = "Total a Pagar: $";
-
 }
 
 /*Agrega evento onclick al boton borrar*/
