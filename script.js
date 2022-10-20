@@ -1,5 +1,7 @@
 const formulario = document.getElementById("formulario");
 
+
+/*se hacen los calculos correspondientes para que cada quien tenga su descuento correspondiente*/
 function hacerCalculos(){
     const valorTicket = 200;
     let selectCan = document.getElementById("cantidad").value;   
