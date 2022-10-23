@@ -33,3 +33,8 @@ document.getElementById("boton-tickets-borrar").onclick = function(){
 document.getElementById("boton-tickets-resumen").onclick = function(){ 
     hacerCalculos(); 
 }
+
+ /*Agrega evento onclick al boton Comprar Tickets*/
+ document.getElementById("botonComprarTickets").onclick = function(){ 
+    location.hash = "#comprar-tickets";
+}
