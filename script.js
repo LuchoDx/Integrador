@@ -7,6 +7,9 @@ function hacerCalculos(){
     let select = document.getElementById("seleccion"); 
     let selectedOption = select.options[select.selectedIndex].value;
 
+    if(selectCan < 1  &&  selectCan10> 10){
+     
+
     if(selectedOption == "estudiante"){
         let resultado = valorTicket * selectCan - ((valorTicket * selectCan) * 80 / 100);
         document.getElementById("total-a-pagar").innerHTML = "Total a Pagar: $" + resultado;
@@ -17,7 +20,11 @@ function hacerCalculos(){
             let resultado = valorTicket * selectCan - ((valorTicket * selectCan) * 15 / 100);
             document.getElementById("total-a-pagar").innerHTML = "Total a Pagar: $" + resultado;
         }   
-} 
+}  else{
+    alert("Debes ingresar un valor entre el 1 y el 10")
+}
+   
+}
 
 function borrar(){
     formulario.reset();
