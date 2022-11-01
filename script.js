@@ -7,7 +7,9 @@ function hacerCalculos(){
     let select = document.getElementById("seleccion"); 
     let selectedOption = select.options[select.selectedIndex].value;
 
-    if(selectCan < 1  &&  selectCan10> 10){
+    if(selectCan !== ""){
+
+    if(selectCan > 0  &&  selectCan < 11){
      
 
     if(selectedOption == "estudiante"){
@@ -23,7 +25,9 @@ function hacerCalculos(){
 }  else{
     alert("Debes ingresar un valor entre el 1 y el 10")
 }
-   
+} else{
+    alert("Debes ingresar un valor en cantidad");
+}
 }
 
 function borrar(){
